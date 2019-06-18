@@ -1,68 +1,98 @@
 :root {
-  color: #eee;
+  color: #eee
 }
-.ui, .landing-page, .public-layout {
-  background-image: url("https://redxen.eu/res/red-space.png");
+
+.ui,.landing-page,.public-layout {
+  background-image: url(https://redxen.eu/res/red-space.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center
 }
-.compose-form .compose-form__buttons-wrapper, .compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input, .compose-form .compose-form__modifiers, .drawer__inner__mastodon, .search__input, .column-header, .column-header__button, .account__section-headline button, .notification__filter-bar button, .column-header__button.active, .column-header__button.active:hover, .column-subheading  {
-  background-color: #222;
+
+.compose-form .compose-form__buttons-wrapper,.compose-form .autosuggest-textarea__textarea,.compose-form .spoiler-input__input,.compose-form .compose-form__modifiers,.drawer__inner__mastodon,.search__input,.column-header,.column-header__button,.account__section-headline button,.notification__filter-bar button,.column-header__button.active,.column-header__button.active:hover,.column-subheading {
+  background-color: #222
 }
-.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input, .icon-button.inverted, .text-icon-button, .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,p {
-  color: #555;
+
+.compose-form .autosuggest-textarea__textarea,.compose-form .spoiler-input__input,.icon-button.inverted,.text-icon-button,.compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,p {
+  color: #555
 }
-.dropdown-menu, .dropdown-menu__item a, .drawer__header, .drawer__inner, .empty-column-indicator, .error-column, ::-webkit-scrollbar-thumb, .column>.scrollable, .getting-started, .column-link, .column-link:active, .column-link:focus, .column-link:hover, .react-toggle--checked .react-toggle-track, ::-webkit-scrollbar-thumb, .drawer__inner__mastodon, body.admin, .admin-wrapper .sidebar-wrapper, .admin-wrapper .sidebar ul a.selected {
-  background: #111;
+
+.dropdown-menu,.dropdown-menu__item a,.drawer__header,.drawer__inner,.empty-column-indicator,.error-column,::-webkit-scrollbar-thumb,.column>.scrollable,.getting-started,.column-link,.column-link:active,.column-link:focus,.column-link:hover,.react-toggle--checked .react-toggle-track,::-webkit-scrollbar-thumb,.drawer__inner__mastodon,body.admin,.admin-wrapper .sidebar-wrapper,.admin-wrapper .sidebar ul a.selected, .flex-spacer, .getting-started, .getting-started__wrapper, .actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal, .tabs-bar, .drawer__inner.darker {
+  background: #111
 }
-.admin-wrapper .sidebar ul ul, .column-subheading, .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track, ::-webkit-scrollbar-track::focus {
-  background: #222;
+
+.column-subheading,.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track  {
+  background: #222
 }
-.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover, .button:active, .button:focus, .button:hover, .button, .search__input:focus, .search__input:focus::placeholder, .search__input:focus .fa-search:before, .drawer__tab:hover, .drawer__header a:hover, .column-header__collapsible-inner, .setting-toggle__label, .admin-wrapper .sidebar ul .simple-navigation-active-leaf a, .admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover {
+
+.dropdown-menu__item a:active,.dropdown-menu__item a:focus,.dropdown-menu__item a:hover,.button:active,.button:focus,.button:hover,.button,.search__input:focus,.search__input:focus::placeholder,.search__input:focus .fa-search:before,.drawer__tab:hover,.drawer__header a:hover,.column-header__collapsible-inner,.setting-toggle__label,.admin-wrapper .sidebar ul .simple-navigation-active-leaf a,.admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, .actions-modal ul li:not(:empty) a.active, .actions-modal ul li:not(:empty) a.active button, .actions-modal ul li:not(:empty) a:active, .actions-modal ul li:not(:empty) a:active button, .actions-modal ul li:not(:empty) a:focus, .actions-modal ul li:not(:empty) a:focus button, .actions-modal ul li:not(:empty) a:hover, .actions-modal ul li:not(:empty) a:hover button, .floating-action-button, .simple_form .block-button, .simple_form .button, .simple_form button {
   background-color: #d22;
-  color: #111 !important;
+  color: #111!important
 }
+
 .dropdown-menu__arrow.bottom {
-  border-bottom-color: #111;
+  border-bottom-color: #111
 }
-.text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover, a, .icon-button.active, .icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover {
-  color: #c11 !important;
+
+.text-icon-button:active,.text-icon-button:focus,.text-icon-button:hover,a,.icon-button.active,.icon-button.inverted:active,.icon-button.inverted:focus,.icon-button.inverted:hover {
+  color: #c11!important
 }
-.icon-button:active, .icon-button:focus, .icon-button:hover, .icon-button {
-  color: #b11;
+
+.icon-button:active,.icon-button:focus,.icon-button:hover,.icon-button {
+  color: #b11
 }
+
 .emoji-button img {
-  opacity: .5;
+  opacity: .5
 }
-.drawer__inner, .drawer__pager, .column, .drawer, .search__input, .drawer__header {
-  border-radius: 10px;
+
+.drawer__inner,.drawer__pager,.column,.drawer,.search__input,.drawer__header, .tabs-bar {
+  border-radius: 10px
 }
-.dropdown-menu__separator {
-  border-bottom: 1px solid #c11;
+
+.dropdown-menu__separator, .actions-modal .dropdown-menu__separator, .actions-modal .status,  .tabs-bar__link.active {
+  border-bottom: 1px solid #c11
 }
-.account__section-headline, .notification__filter-bar {
-  border-bottom: none;
+
+.account__section-headline,.notification__filter-bar, .tabs-bar__link {
+  border-bottom: none
 }
-.column, .drawer {
-  padding:0;
-  margin: 10px 5px;
+
+.column,.drawer {
+  padding: 0;
+  margin: 10px 5px
 }
+
 .drawer__tab:nth-child(1) {
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px
 }
+
 .drawer__tab:last-child {
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0
 }
-.account__section-headline a.active:after, .account__section-headline button.active:after, .notification__filter-bar a.active:after, .notification__filter-bar button.active:after {
-  border-color: transparent transparent #111;
+.column-header__wrapper {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
-.account__section-headline a.active:after, .account__section-headline a.active:before, .account__section-headline button.active:after, .account__section-headline button.active:before, .notification__filter-bar a.active:after, .notification__filter-bar a.active:before, .notification__filter-bar button.active:after, .notification__filter-bar button.active:before {
-  border-color: transparent transparent #222;
+
+.account__section-headline a.active:after,.account__section-headline button.active:after,.notification__filter-bar a.active:after,.notification__filter-bar button.active:after {
+  border-color: transparent transparent #111
 }
+
+.account__section-headline a.active:after,.account__section-headline a.active:before,.account__section-headline button.active:after,.account__section-headline button.active:before,.notification__filter-bar a.active:after,.notification__filter-bar a.active:before,.notification__filter-bar button.active:after,.notification__filter-bar button.active:before {
+  border-color: transparent transparent #222
+}
+
 .getting-started__footer p {
-  display:none;
+  display: none
 }
-.admin-wrapper .sidebar ul ul {
-  background: #222;
+
+.admin-wrapper .sidebar ul ul, .search-results__header {
+  background: #222
+}
+.columns-area--mobile .column {
+  margin: 0;
+}
+.simple_form input[type=email]:active, .simple_form input[type=email]:focus, .simple_form input[type=number]:active, .simple_form input[type=number]:focus, .simple_form input[type=password]:active, .simple_form input[type=password]:focus, .simple_form input[type=text]:active, .simple_form input[type=text]:focus, .simple_form textarea:active, .simple_form textarea:focus {
+  border-color: #d22
 }
